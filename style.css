@@ -3,6 +3,34 @@ body {
     margin: 0px;
     padding: 0px;
 }
+section{
+    width: 15%;
+    background-color: black;
+    height: 100vh;
+}
+img{
+    width: 70%;
+    border-radius: 25%;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+a{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    padding: 25px 0px;    
+    display: block;
+}
+a, a :hover, a :visited, a :active{
+    color: grey;
+    text-decoration: none;
+}
+a :hover{
+    color: white;
+}
+.links{
+    margin-top: 50px;
+}
 .login-box{
     width: 20%;
     margin-left: 40%;
@@ -27,7 +55,8 @@ h2{
     margin-top: 30px;
 }
 #submit{
-    border: 1px solid black;   
+    border: 1px solid black;  
+    border-radius: 20px; 
 }
 #submit:hover{
     background-color: black;
