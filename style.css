@@ -83,20 +83,20 @@ h2{
 .userpage-link{
     background-color: black;
     width: 20%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 40%;
     box-shadow: 5px 5px 5px black;
     border-radius: 25px;
 }
 .home{
     background-color: black;
-    width: 20%;
+    width: 10%;
     margin-top: 10px;
     margin-left: 40%;
     box-shadow: 5px 5px 5px black;
     border-radius: 25px;
 }
-.go-login{
+.go-signup{
     background-color: black;
     width: 10%;
     margin-top: 10px;
