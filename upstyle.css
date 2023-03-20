@@ -1,0 +1,74 @@
+body {
+    font-family: Verdana;
+    margin: 0px;
+    padding: 0px;
+}
+.joehead{
+    margin-left: 8%;
+    font-size: 35px;
+}
+.grid-container{
+    margin-left: 10px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 300px 350px 300px 300px;
+    grid-template-rows: 60px 280px 280px 280px 280px;
+    grid-template-areas: 
+    "cover title learn learn"
+    "buildc buildt buildl buildl"
+    "leanc leant leanl leanl";
+
+}
+.item-1{
+    grid-area: cover;
+    margin: auto;
+}
+.item-2{
+    grid-area: title;
+    margin: auto;
+}
+.item-3{
+    grid-area: learn;
+}
+.item-4{
+    grid-area: buildc;
+    width: 80px;
+    height: 80px;
+    margin-left: 35%;
+}
+.item-5{
+    grid-area: buildt;
+    margin: auto;
+}
+.item-6{
+    grid-area: buildl;
+    margin: auto;
+}
+.item-7{
+    grid-area: leanc;
+    width: 80px;
+    height: 80px;
+    margin-left: 35%;
+}
+.item-8{
+    grid-area: leant;
+    margin: auto;
+}
+.item-9{
+    grid-area: leanl;
+    margin: auto;
+}
+.item-10{
+    grid-area: minimalc;
+    width: 80px;
+    height: 80px;
+    margin-left: 35%;
+}
+.item-11{
+    grid-area: miniamlt;
+    margin: auto;
+}
+.item-12{
+    grid-area: minimall;
+    margin: auto;
+}
